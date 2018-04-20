@@ -135,7 +135,7 @@ while True:
     print("\n")
     print("*a few years later*")
     print("\n")
-    print("        |--|--|--|--|--|     ")
+    print("           |--|--|--|--|--|     ")
     print("	   |    -     |   |     ")
     print("	   |  -        |  |     ")
     print("	   |   =      =   |     ")
@@ -149,6 +149,7 @@ while True:
     print("You get up in the morning and find the creature sitting on your bed smiling.")
     print('\n')
     anw10 = input("Will you run out of your home?")
+    print("\n")
     if anw10 == "yes":
         print("You go outside.")
         print("You walk down the streets for some time and then go to an inn.")
@@ -162,7 +163,9 @@ while True:
         print('\n')
     print("Your best-friend Henry Clerval arrives.")
     print("He tells you that your family is well.")
+    print("\n")
     anw11 = input("Will you go home with him?")
+    print("\n")
     if anw11 == "yes": 
         print("You go home.")
         print("The monster isn't there.")
@@ -175,21 +178,29 @@ while True:
         print("Invalid answer.")
         continue
         print('\n')
+    print("\n")
     print("You get ill.")
     print("Henry nurses you back to health and you recover.")
-    print("Thenhe gives you a letter from Elizabeth.")        
+    print("Then he gives you a letter from Elizabeth.")        
     print("She expresses her concern about your illness and entreats you to write to your family in Geneva as soon as you can.")
     print("Then your father sends you a letter which says that your brother Williams is death and your father begs you to go home.")
-    anw12 = input("Will you back to your family?")
+    print("\n")
+    anw12 = input("Will you go back to your family?")
+    print("\n")
     if anw12 == "yes":
         print("You go to Geneva.")
         print("You visit the place where your brother was found dead.")
-	print("You see the monster in the near trees but it disappears.")
-    if anw12 == "no":	
-	print("You continue to work.")
-	print("One day your neighbors find out about the creature and set your home on fire.")
+        print("You see the monster in the near trees but it disappears.")
+    elif anw12 == "no":
+        print("You continue to work.")
+        print("One day your neighbors find out about the creature and set your home on fire.")
         continue
         print("\n")
+    else:
+        print("Invalid answer.")
+        continue
+        print('\n')
+   
 
         
     
