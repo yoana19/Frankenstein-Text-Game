@@ -375,7 +375,7 @@ while True:
     print("Mr Kirwin takes you to see the body.")
     print("The body belongs to your friend, Clerval.")
     print("\n")
-    anw21 = input("Will say that you are the murderer?")
+    anw21 = input("Will you say that you are the murderer?")
     print("\n")
     if anw21 == "yes":
         print("You are sent to court.")
