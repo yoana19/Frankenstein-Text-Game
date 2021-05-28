@@ -414,7 +414,7 @@ while True:
     print("\n")
     print("You get married.")
     print("You take off on boat to hotel in Evian.")
-    print("You go to an inn there and soon you sent Elizabeth to sleep.")
+    print("You go to an inn there and soon you send Elizabeth to sleep.")
     print("\n")
     anw23 = input("Will you follow her?")
     print("\n")
